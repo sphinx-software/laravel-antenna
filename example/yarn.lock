@@ -1383,7 +1383,7 @@
   version "0.0.0"
   uid ""
 
-"@sphinx-software/laravel-echo-antenna-transport@link:..":
+"@sphinx-software/laravel-antenna@link:..":
   version "0.0.0"
   uid ""
 
