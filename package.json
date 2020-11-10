@@ -1,6 +1,6 @@
 {
   "name": "@sphinx-software/laravel-antenna",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The Antenna transport that using built on top of Laravel Echo",
   "author": "monkey-programmer",
   "license": "MIT",
