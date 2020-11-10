@@ -2,7 +2,7 @@
 
 > The Antenna transport that using built on top of Laravel Echo
 
-[![NPM](https://img.shields.io/npm/v/@sphinx-software/laravel-echo-antenna-transport.svg)](https://www.npmjs.com/package/@sphinx-software/laravel-echo-antenna-transport) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/@sphinx-software/laravel-antenna.svg)](https://www.npmjs.com/package/@sphinx-software/laravel-echo-antenna-transport) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
