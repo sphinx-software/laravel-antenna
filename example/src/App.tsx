@@ -4,7 +4,7 @@ import {
   Subscription,
   Subscriber
 } from '@sphinx-software/antenna'
-import { echo } from '@sphinx-software/laravel-echo-antenna-transport'
+import { echo } from '@sphinx-software/laravel-antenna'
 import Echo from 'laravel-echo'
 import 'pusher-js'
 

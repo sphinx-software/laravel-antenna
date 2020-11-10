@@ -1,27 +1,39 @@
-# @sphinx-software/laravel-echo-antenna-transport
+# @sphinx-software/laravel-antenna
 
-> Made with create-react-library
+> The Antenna transport that using built on top of Laravel Echo
 
 [![NPM](https://img.shields.io/npm/v/@sphinx-software/laravel-echo-antenna-transport.svg)](https://www.npmjs.com/package/@sphinx-software/laravel-echo-antenna-transport) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
 ```bash
-npm install --save @sphinx-software/laravel-echo-antenna-transport
+npm install --save @sphinx-software/laravel-antenna
 ```
 
 ## Usage
 
 ```tsx
-import React, { Component } from 'react'
+import { echo } from '@sphinx-software/laravel-antenna'
+import { AntennaProvider } from '@sphinx-software/antenna'
 
-import MyComponent from '@sphinx-software/laravel-echo-antenna-transport'
-import '@sphinx-software/laravel-echo-antenna-transport/dist/index.css'
+import Echo from 'laravel-echo'
 
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
+const transport = echo({
+  echo: new Echo({ 
+      // ... your Laravel echo config here
+  }),
+  events: [ 
+    // List of your events
+  ]
+})
+
+
+const App = () => {
+  return (
+    <AntennaProvider transport={transport}>
+      {/* Your app code here */}
+    </AntennaProvider>
+  )
 }
 ```
 

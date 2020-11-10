@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@sphinx-software/antenna": "link:../node_modules/@sphinx-software/antenna",
-    "@sphinx-software/laravel-echo-antenna-transport": "link:..",
+    "@sphinx-software/laravel-antenna": "link:..",
     "@testing-library/jest-dom": "link:../node_modules/@testing-library/jest-dom",
     "@testing-library/react": "link:../node_modules/@testing-library/react",
     "@testing-library/user-event": "link:../node_modules/@testing-library/user-event",
